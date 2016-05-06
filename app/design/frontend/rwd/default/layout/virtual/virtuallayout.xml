@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<layout version="0.0.1">
+    <cms_index_index>
+        <reference name="content">
+            <block type="virtual_vmodul/vblock" name="virtual_block" template="virtual/virtualpage.phtml"/>
+        </reference>
+    </cms_index_index>
+</layout>

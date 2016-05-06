@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Virtual_Chekurl>
+            <version>0.0.1</version>
+        </Virtual_Chekurl>
+    </modules>
+
+    <global>
+        <helpers>
+            <virtual_chekurl>
+                <class>Virtual_Chekurl_Helper</class>
+            </virtual_chekurl>
+        </helpers>
+        <models>
+            <virtual_chekurl>
+                <class>Virtual_Chekurl_Model</class>
+            </virtual_chekurl>
+        </models>
+        <events>
+            <catalog_product_save_before>
+                <observers>
+                    <product_change_url>
+                        <type>singleton</type>
+                        <class>virtual_chekurl/observer</class>
+                        <method>CheckUnicUrl</method>
+                    </product_change_url>
+                </observers>
+            </catalog_product_save_before>
+        </events>
+    </global>
+
+    <frontend>
+        <routers>
+            <virtual_chekurl>
+                <use>standard</use>
+                <args>
+                    <module>Virtual_Chekurl</module>
+                    <frontName>chekurl</frontName>
+                </args>
+            </virtual_chekurl>
+        </routers>
+    </frontend>
+
+    <adminhtml>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <virtual>
+                                            <title>Virtual - All</title>
+                                        </virtual>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+</config>

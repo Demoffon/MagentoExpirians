@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<config>
+    <menu>
+        <catalog>
+            <children>
+                <virtual_orders translate="title" module="virtual_orders">
+                    <sort_order>10</sort_order>
+                    <title>Orders - Virtual</title>
+                    <action>adminhtml/order/</action>
+                </virtual_orders>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <!-- Same as above, but instead of referencing the config/menu node, you reference the acl/resources node of adminhtml.xml -->
+                    <catalog>
+                        <children>
+                            <!-- Keep the same naming convention as above -->
+                            <virtual_orders>
+                                <!-- This is how the ACL text will be displayed on System > Permissions > Roles > Role > Role Resources -->
+                                <title>Baz</title>
+                            </virtual_orders>
+                        </children>
+                    </catalog>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

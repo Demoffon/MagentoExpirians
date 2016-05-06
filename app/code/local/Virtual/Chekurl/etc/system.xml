@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <virtual translate="label" module="virtual_chekurl">
+            <label>Check URL Settings</label>
+            <sort_order>100</sort_order>
+        </virtual>
+    </tabs>
+    <sections>
+        <virtual translate="label" module="virtual_chekurl">
+            <label>Check options</label>
+            <tab>virtual</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+
+            <groups>
+                <virtual_group translate="label" module="virtual_chekurl">
+                    <label>My Extension Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+
+                    <fields>
+                        <virtual_input translate="label">
+                            <label>Enable/Disable</label>
+                            <comment>Enable/Disable</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+
+                        </virtual_input>
+                        <virtual_select translate="label">
+                            <label>Method of change URL</label>
+
+                            <frontend_type>select</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>Virtual_Chekurl_Model_Changemetodsource</source_model>
+                        </virtual_select>
+                    </fields>
+                </virtual_group>
+            </groups>
+        </virtual>
+    </sections>
+</config>

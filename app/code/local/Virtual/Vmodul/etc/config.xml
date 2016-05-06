@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Virtual_Vmodul>
+            <version>0.0.3</version>
+        </Virtual_Vmodul>
+    </modules>
+
+    <global>
+        <blocks>
+            <virtual_vmodul>
+                <class>Virtual_Vmodul_Block</class>
+            </virtual_vmodul>
+        </blocks>
+        <helpers>
+            <virtual_vmodul>
+                <class>Virtual_Vmodul_Helper</class>
+            </virtual_vmodul>
+        </helpers>
+        <models>
+            <virtual_vmodul>
+                <class>Virtual_Vmodul_Model</class>
+                <resourceModel>virtual_vmodul_resource</resourceModel>
+            </virtual_vmodul>
+            <virtual_vmodul_resource>
+                <class>Virtual_Vmodul_Model_Resource</class>
+                <entities>
+                    <vmodel>
+                        <table>aavirtual</table>
+                    </vmodel>
+                </entities>
+            </virtual_vmodul_resource>
+        </models>
+        <resources>
+            <virtual_vmodul_setup>
+                <setup>
+                    <module>Virtual_Vmodul</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+            </virtual_vmodul_setup>
+        </resources>
+    </global>
+
+    <frontend>
+        <routers>
+            <virtual_vmodul>
+                <use>standard</use>
+                <args>
+                    <module>Virtual_Vmodul</module>
+                    <frontName>vmodul</frontName>
+                </args>
+            </virtual_vmodul>
+        </routers>
+        <layout>
+            <updates>
+                <virtual_vmodul>
+                    <file>virtual/virtuallayout.xml</file>
+                </virtual_vmodul>
+            </updates>
+        </layout>
+    </frontend>
+
+</config>

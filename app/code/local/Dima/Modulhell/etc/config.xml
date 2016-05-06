@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dima_Modulhell>
+            <version>0.0.1</version>    <!-- Version number of your module -->
+        </Dima_Modulhell>
+    </modules>
+    <global>
+        <blocks>
+            <dima_modulhell>
+                <class>Dima_Modulhell_Block</class>
+            </dima_modulhell>
+        </blocks>
+        <helpers>
+            <dima_modulhell>
+                <class>Dima_Modulhell_Helper</class>
+            </dima_modulhell>
+        </helpers>
+        <models>
+            <dima_modulhell>
+                <class>Dima_Modulhell_Model</class>
+            </dima_modulhell>
+        </models>
+    </global>
+
+
+    <frontend>
+        <layout>
+            <updates>
+                <dima_modulhell>
+                    <file>dima/mylayout.xml</file>
+                </dima_modulhell>
+            </updates>
+        </layout>
+        <routers>
+            <dima_modulhell>
+                <use>standard</use>
+                <args>
+                    <module>Dima_Modulhell</module>
+                    <frontName>modul</frontName>
+                </args>
+            </dima_modulhell>
+        </routers>
+    </frontend>
+</config>

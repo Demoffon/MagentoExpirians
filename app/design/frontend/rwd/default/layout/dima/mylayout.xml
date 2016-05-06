@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<layout version="0.0.1">
+    <cms_index_index>
+        <reference name="content">
+            <block type="dima_modulhell/myblock" name="dima_myblock" template="dima/mypage.phtml"/>
+        </reference>
+    </cms_index_index>
+    <dima_modulhell_index_test>
+        <reference name="content">
+            <block type="dima_modulhell/myblock" name="dima_my" template="dima/mypage.phtml"/>
+        </reference>
+    </dima_modulhell_index_test>
+
+</layout>

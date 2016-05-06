@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Virtual_Orders>
+            <version>0.0.0.1</version>
+        </Virtual_Orders>
+    </modules>
+
+    <global>
+        <models>
+            <virtual_orders>
+                <class>Virtual_Orders_Model</class>
+                <!-- Define a resource to create a custom table -->
+                <resourceModel>Virtual_Orders_mysql4</resourceModel>
+            </virtual_orders>
+
+            <!-- Here's our resource model we'll use to create a database table -->
+            <virtual_orders_mysql4>
+                <class>Virtual_Orders_Model_Mysql4</class>
+                <entities>
+                    <!-- Let's define our table, we'll call it with the baz name, but the real table is foo_bar_baz -->
+                    <!-- After we define our entity, we can call it with our model by calling foo_bar/baz -->
+                    <baz>
+                        <table>virtual_orders_baz</table>
+                    </baz>
+                </entities>
+            </virtual_orders_mysql4>
+        </models>
+
+        <!-- And finally we define our resource setup script -->
+        <resources>
+            <virtual_orders_setup>
+                <setup>
+                    <module>Virtual_Orders</module>
+                </setup>
+            </virtual_orders_setup>
+        </resources>
+
+        <blocks>
+            <virtual_orders>
+                <class>Virtual_Orders_Block</class>
+            </virtual_orders>
+        </blocks>
+
+        <helpers>
+            <virtual_orders>
+                <class>Virtual_Orders_Helper</class>
+            </virtual_orders>
+        </helpers>
+    </global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <virtual_orders before="Mage_Adminhtml">Virtual_Orders_Adminhtml</virtual_orders>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <virtual_orders>
+                    <!--
+                    We again keep a nice naming convention and make our module upgrade proof by placing it in a separate folder
+                    - Since we are in the adminhtml node, this will look for the XML file in the app/design/adminhtml/default/default root folder
+                    -->
+                    <file>virtual/orders.xml</file>
+                </virtual_orders>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>
