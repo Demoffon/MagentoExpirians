@@ -93,9 +93,9 @@ class Virtual_Orders_Adminhtml_BazController extends Mage_Adminhtml_Controller_A
     {
         $this->loadLayout()
             // Make the active menu match the menu config nodes (without 'children' inbetween)
-            ->_setActiveMenu('sales/virtual_orders_baz')
-            ->_title($this->__('Sales'))->_title($this->__('Baz'))
-            ->_addBreadcrumb($this->__('Sales'), $this->__('Sales'))
+            ->_setActiveMenu('catalog/virtual_orders_baz')
+            ->_title($this->__('Catalog'))->_title($this->__('Baz'))
+            ->_addBreadcrumb($this->__('Catalog'), $this->__('Catalog'))
             ->_addBreadcrumb($this->__('Baz'), $this->__('Baz'));
 
         return $this;

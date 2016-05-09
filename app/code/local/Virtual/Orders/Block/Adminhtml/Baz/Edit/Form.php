@@ -45,6 +45,13 @@ class Virtual_Orders_Block_Adminhtml_Baz_Edit_Form extends Mage_Adminhtml_Block_
             'required' => true,
         ));
 
+        $fieldset->addField('age', 'text', array(
+            'name' => 'age',
+            'label' => Mage::helper('checkout')->__('Age'),
+            'title' => Mage::helper('checkout')->__('Age'),
+            'required' => true,
+        ));
+
         $form->setValues($model->getData());
         $form->setUseContainer(true);
         $this->setForm($form);
