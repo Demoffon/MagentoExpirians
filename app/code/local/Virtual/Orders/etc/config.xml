@@ -3,7 +3,7 @@
 <config>
     <modules>
         <Virtual_Orders>
-            <version>0.0.0.1</version>
+            <version>0.0.1</version>
         </Virtual_Orders>
     </modules>
 
@@ -12,7 +12,7 @@
             <virtual_orders>
                 <class>Virtual_Orders_Model</class>
                 <!-- Define a resource to create a custom table -->
-                <resourceModel>Virtual_Orders_mysql4</resourceModel>
+                <resourceModel>virtual_orders_mysql4</resourceModel>
             </virtual_orders>
 
             <!-- Here's our resource model we'll use to create a database table -->
@@ -33,6 +33,7 @@
             <virtual_orders_setup>
                 <setup>
                     <module>Virtual_Orders</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
                 </setup>
             </virtual_orders_setup>
         </resources>

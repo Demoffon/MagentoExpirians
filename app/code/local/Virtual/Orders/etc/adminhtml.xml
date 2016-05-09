@@ -4,11 +4,11 @@
     <menu>
         <catalog>
             <children>
-                <virtual_orders translate="title" module="virtual_orders">
+                <virtual_orders_baz translate="title" module="virtual_orders">
                     <sort_order>10</sort_order>
-                    <title>Orders - Virtual</title>
-                    <action>adminhtml/order/</action>
-                </virtual_orders>
+                    <title>Virtual</title>
+                    <action>adminhtml/baz/</action>
+                </virtual_orders_baz>
             </children>
         </catalog>
     </menu>
