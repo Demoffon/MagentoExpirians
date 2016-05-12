@@ -4,11 +4,16 @@
     <menu>
         <catalog>
             <children>
-                <virtual_orders_baz translate="title" module="virtual_orders">
+                <virtual_orders_good translate="title" module="virtual_orders">
                     <sort_order>10</sort_order>
-                    <title>Virtual</title>
-                    <action>adminhtml/baz/</action>
-                </virtual_orders_baz>
+                    <title>Product on Warehouse</title>
+                    <action>adminhtml/good/</action>
+                </virtual_orders_good>
+                <virtual_orders_ware translate="title" module="virtual_orders">
+                    <sort_order>20</sort_order>
+                    <title>Warehouse list</title>
+                    <action>adminhtml/ware/</action>
+                </virtual_orders_ware>
             </children>
         </catalog>
     </menu>
@@ -22,7 +27,7 @@
                             <!-- Keep the same naming convention as above -->
                             <virtual_orders>
                                 <!-- This is how the ACL text will be displayed on System > Permissions > Roles > Role > Role Resources -->
-                                <title>Baz</title>
+                                <title>Good</title>
                             </virtual_orders>
                         </children>
                     </catalog>

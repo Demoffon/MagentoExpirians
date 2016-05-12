@@ -12,20 +12,23 @@
             <virtual_orders>
                 <class>Virtual_Orders_Model</class>
                 <!-- Define a resource to create a custom table -->
-                <resourceModel>virtual_orders_mysql4</resourceModel>
+                <resourceModel>virtual_orders_resource</resourceModel>
             </virtual_orders>
 
             <!-- Here's our resource model we'll use to create a database table -->
-            <virtual_orders_mysql4>
-                <class>Virtual_Orders_Model_Mysql4</class>
+            <virtual_orders_resource>
+                <class>Virtual_Orders_Model_Resource</class>
                 <entities>
                     <!-- Let's define our table, we'll call it with the baz name, but the real table is foo_bar_baz -->
                     <!-- After we define our entity, we can call it with our model by calling foo_bar/baz -->
-                    <baz>
-                        <table>virtual_orders_baz</table>
-                    </baz>
+                    <good>
+                        <table>virtual_orders_good</table>
+                    </good>
+                    <ware>
+                        <table>virtual_orders_ware</table>
+                    </ware>
                 </entities>
-            </virtual_orders_mysql4>
+            </virtual_orders_resource>
         </models>
 
         <!-- And finally we define our resource setup script -->
