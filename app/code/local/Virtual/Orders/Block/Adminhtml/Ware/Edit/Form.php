@@ -1,4 +1,4 @@
-<?php
+ <?php
 class Virtual_Orders_Block_Adminhtml_Ware_Edit_Form extends Mage_Adminhtml_Block_Widget_Form
 {
     /**

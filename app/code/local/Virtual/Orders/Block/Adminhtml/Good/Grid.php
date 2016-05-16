@@ -38,11 +38,14 @@ class Virtual_Orders_Block_Adminhtml_Good_Grid extends Mage_Adminhtml_Block_Widg
                 'index' => 'id'
             )
         );
-
-        $this->addColumn('ware_id',
+        
+        $this->addColumn('ware_name',
             array(
-                'header'=> $this->__('WareID'),
-                'index' => 'ware_id'
+                'header'=> $this->__('WareName'),
+                'index' => 'ware_id',
+                'sortable' => true,
+                'type'  => 'options',
+                'options' => Mage::getSingleton('virtual_orders/source_warehousename')->getOptions(),
             )
         );
 
@@ -68,4 +71,6 @@ class Virtual_Orders_Block_Adminhtml_Good_Grid extends Mage_Adminhtml_Block_Widg
         // This is where our row data will link to
         return $this->getUrl('*/*/edit', array('id' => $row->getId()));
     }
+
+
 }
