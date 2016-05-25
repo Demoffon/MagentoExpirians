@@ -2,7 +2,9 @@
 
 <config>
     <menu>
-        <catalog>
+        <warehause translate="title" module="virtual_orders">
+            <title>Dima Warehouse</title>
+            <sort_order>171</sort_order>
             <children>
                 <virtual_orders_good translate="title" module="virtual_orders">
                     <sort_order>10</sort_order>
@@ -15,14 +17,14 @@
                     <action>adminhtml/ware/</action>
                 </virtual_orders_ware>
             </children>
-        </catalog>
+        </warehause>
     </menu>
     <acl>
         <resources>
             <admin>
                 <children>
                     <!-- Same as above, but instead of referencing the config/menu node, you reference the acl/resources node of adminhtml.xml -->
-                    <catalog>
+                    <warehouse>
                         <children>
                             <!-- Keep the same naming convention as above -->
                             <virtual_orders>
@@ -30,7 +32,7 @@
                                 <title>Good</title>
                             </virtual_orders>
                         </children>
-                    </catalog>
+                    </warehouse>
                 </children>
             </admin>
         </resources>

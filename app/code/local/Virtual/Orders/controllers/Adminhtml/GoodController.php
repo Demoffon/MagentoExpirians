@@ -4,14 +4,66 @@ class Virtual_Orders_Adminhtml_GoodController extends Mage_Adminhtml_Controller_
     public function indexAction()
     {
         // Let's call our initAction method which will set some basic params for each action
-        $this->_initAction()
-            ->renderLayout();
+        $this->_initAction();
+
+        $this->_addContent($this->getLayout()->createBlock('virtual_orders/adminhtml_importfile'));
+        $this->renderLayout();
     }
 
     public function newAction()
     {
         // We just forward the new action to a blank edit form
         $this->_forward('edit');
+    }
+
+    public function importFileAction()
+    {
+        if ($this->getRequest()->getPost()){
+            $connection = Mage::getSingleton('core/resource')->getConnection('core_write');
+            if ($this->_validationFile()){
+                $csv = new Varien_File_Csv();
+                $data = $csv->getData($_FILES['csv']['tmp_name']);
+                $wrongSaveProduct = 0;
+                $successCount = 0;
+                $convertData = Mage::helper('virtual_orders')->convertFirstLineOfArrayToKey($data);
+
+                foreach($convertData as $record){
+                        $connection->beginTransaction();
+                        try{
+                            $resultQty = Mage::getModel('virtual_orders/good')->warehousesQtySave($record['warehouse'], $record['sku'], $record['qty']);
+                            Mage::helper('virtual_orders')->changeProductQty($record['sku'], $resultQty);
+                            $successCount++;
+                            $connection->commit();
+                        }catch (Exception $e){
+                            $wrongSaveProduct++;
+                            Mage::log("Product with sku ". $record['sku'] ." don't save", null, 'good.log', true);
+                            /**
+                             * rollback transaction
+                             */
+                            $connection->rollback();
+                        }
+                }
+
+                if (!$wrongSaveProduct){
+                    Mage::getSingleton('adminhtml/session')->addSuccess("Processed " .$successCount. " records. All product is saved");
+                }else{
+                    Mage::getSingleton('adminhtml/session')->addNotice("Processed " . ($successCount + $wrongSaveProduct) . " records: " . $successCount . " successfully and " . $wrongSaveProduct . " errors");
+                }
+                $this->_redirect('*/*/index', array('id' => $this->getRequest()->getParam('id')));
+            }
+            
+        }
+    }
+
+    private function _validationFile(){
+        $type = $_FILES["csv"]["type"];
+
+        if (($type=="application/vnd.ms-excel") || ($type=="text/csv")) {
+            return true;
+        }
+
+        Mage::getSingleton('adminhtml/session')->addError("Not support file!! Only CSV type!");
+        return false;
     }
 
     public function editAction()
