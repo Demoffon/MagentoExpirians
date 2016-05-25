@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6c10e3e-4bc0-4217-80cb-8c4518a48cdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Virtual_Luckytotal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Importfile.php" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Importfile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Virtual/Orders/Helper/Data.php" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/Helper/Data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Virtual/Orders/Model/Good.php" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/Model/Good.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Virtual/Orders/controllers/Adminhtml/GoodController.php" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/controllers/Adminhtml/GoodController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/adminhtml.xml" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/adminhtml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/log/exception.log" afterPath="$PROJECT_DIR$/var/log/exception.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/log/system.log" afterPath="$PROJECT_DIR$/var/log/system.log" />
     </list>
     <ignored path="magento.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +44,7 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Luckytotal/etc/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="-77">
               <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="61" selection-end-column="38" />
               <folding />
             </state>
@@ -527,7 +519,7 @@
       <workItem from="1463577974451" duration="34442000" />
       <workItem from="1463924446816" duration="7737000" />
       <workItem from="1464098427335" duration="4507000" />
-      <workItem from="1464175891972" duration="3455000" />
+      <workItem from="1464175891972" duration="3978000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1462808869048</created>
@@ -557,11 +549,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463411028039</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1">
+      <created>1464203985074</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1464203985074</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230296000" />
+    <option name="totallyTimeSpent" value="230819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="1" width="1316" height="773" extended-state="0" />
@@ -569,6 +568,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23089172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -576,7 +576,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -963,7 +962,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Luckytotal/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="-77">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="61" selection-end-column="38" />
           <folding />
         </state>
