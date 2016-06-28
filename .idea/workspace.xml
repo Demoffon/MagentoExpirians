@@ -2,736 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6c10e3e-4bc0-4217-80cb-8c4518a48cdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz/Edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz/Edit/Form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz/Grid.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/controllers/Adminhtml/BazController.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Sales/Order.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Sales/Order/Grid.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/local/Virtual/Orders/controllers/Adminhtml/OrderController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_TRANSLATE_EN_US_FRONTEND_1_RWD_DEFAULT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_az_Latn_AZ_country_AZ" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_az_Latn_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_bs_Latn_BA_country_BA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_bs_Latn_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_en_US_currencynumber_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_en_US_currencysymbol_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_en_US_nametocurrency_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_mn_Cyrl_MN_country_MN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_mn_Cyrl_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_ms_Latn_MY_country_MY" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_ms_Latn_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_sr_Latn_RS_country_RS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_sr_Latn_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_zh_Hans_CN_country_CN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_zh_Hans_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_zh_Hant_HK_country_HK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_zh_Hant_TW_country_TW" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleC_zh_Hant_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---620_Zend_LocaleL_en_US_currencytoname_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_TRANSLATE_EN_US_FRONTEND_1_RWD_DEFAULT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_az_Latn_AZ_country_AZ" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_az_Latn_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_bs_Latn_BA_country_BA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_bs_Latn_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_en_US_currencynumber_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_en_US_currencysymbol_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_en_US_nametocurrency_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_mn_Cyrl_MN_country_MN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_mn_Cyrl_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_ms_Latn_MY_country_MY" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_ms_Latn_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_sr_Latn_RS_country_RS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_sr_Latn_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_zh_Hans_CN_country_CN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_zh_Hans_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_zh_Hant_HK_country_HK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_zh_Hant_TW_country_TW" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleC_zh_Hant_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---620_Zend_LocaleL_en_US_currencytoname_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---620_LAYOUT_ADMINHTML_STORE0_DEFAULT_DEFAULT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---620_Zend_LocaleC_az_Latn_AZ_language_az" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---620_Zend_LocaleC_bs_Latn_BA_language_bs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---620_Zend_LocaleC_mn_Cyrl_MN_language_mn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---620_Zend_LocaleC_ms_Latn_MY_language_ms" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---620_Zend_LocaleC_sr_Latn_RS_language_sr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---620_Zend_LocaleC_zh_Hans_CN_language_zh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---620_Zend_LocaleC_zh_Hant_HK_language_zh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---620_Zend_LocaleC_zh_Hant_TW_language_zh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---620_LAYOUT_ADMINHTML_STORE0_DEFAULT_DEFAULT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---620_Zend_LocaleC_az_Latn_AZ_language_az" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---620_Zend_LocaleC_bs_Latn_BA_language_bs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---620_Zend_LocaleC_mn_Cyrl_MN_language_mn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---620_Zend_LocaleC_ms_Latn_MY_language_ms" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---620_Zend_LocaleC_sr_Latn_RS_language_sr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---620_Zend_LocaleC_zh_Hans_CN_language_zh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---620_Zend_LocaleC_zh_Hant_HK_language_zh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---620_Zend_LocaleC_zh_Hant_TW_language_zh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---620_CONFIG_GLOBAL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---620_WIDGET_CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---620_config_theme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---620_CONFIG_GLOBAL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---620_WIDGET_CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---620_config_theme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---620_PERMISSION_BLOCK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---620_Zend_LocaleC_az_Latn_AZ_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---620_Zend_LocaleC_bs_Latn_BA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---620_Zend_LocaleC_en_US_currencysymbol_USD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---620_Zend_LocaleC_en_US_currencytoname_USD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---620_Zend_LocaleC_en_US_nametocurrency_USD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---620_Zend_LocaleC_mn_Cyrl_MN_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---620_Zend_LocaleC_ms_Latn_MY_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---620_Zend_LocaleC_sr_Latn_RS_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---620_Zend_LocaleC_zh_Hans_CN_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---620_Zend_LocaleC_zh_Hant_HK_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---620_Zend_LocaleC_zh_Hant_TW_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---620_Zend_LocaleL_en_US_windowstotimezone_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---620_PERMISSION_BLOCK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---620_Zend_LocaleC_az_Latn_AZ_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---620_Zend_LocaleC_bs_Latn_BA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---620_Zend_LocaleC_en_US_currencysymbol_USD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---620_Zend_LocaleC_en_US_currencytoname_USD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---620_Zend_LocaleC_en_US_nametocurrency_USD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---620_Zend_LocaleC_mn_Cyrl_MN_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---620_Zend_LocaleC_ms_Latn_MY_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---620_Zend_LocaleC_sr_Latn_RS_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---620_Zend_LocaleC_zh_Hans_CN_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---620_Zend_LocaleC_zh_Hant_HK_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---620_Zend_LocaleC_zh_Hant_TW_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---620_Zend_LocaleL_en_US_windowstotimezone_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---620_CONFIG_GLOBAL_ADMIN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---620_CORE_CACHE_OPTIONS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---620_FOOTER_LOCALEEN_US" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---620_PERMISSION_VARIABLE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---620_TRANSLATE_EN_US_ADMINHTML_0_DEFAULT_DEFAULT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---620_Zend_LocaleC_en_US_currencytoregion_US" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---620_CONFIG_GLOBAL_ADMIN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---620_CORE_CACHE_OPTIONS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---620_FOOTER_LOCALEEN_US" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---620_PERMISSION_VARIABLE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---620_TRANSLATE_EN_US_ADMINHTML_0_DEFAULT_DEFAULT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---620_Zend_LocaleC_en_US_currencytoregion_US" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---620_CONFIG_GLOBAL_CRONTAB" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---620_CONFIG_GLOBAL_INSTALL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---620_CONFIG_GLOBAL_STORES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---620_DB_PDO_MYSQL_DDL_catalog_product_entity_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---620_CONFIG_GLOBAL_CRONTAB" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---620_CONFIG_GLOBAL_INSTALL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---620_CONFIG_GLOBAL_STORES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---620_DB_PDO_MYSQL_DDL_catalog_product_entity_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---620_CONFIGURATION_FILES_ACCESS_LEVEL_VERIFICATION" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---620_CONFIG_GLOBAL_ADMINHTML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---620_CONFIG_GLOBAL_WEBSITES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---620_Zend_LocaleC_de_time_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---620_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---620_CONFIGURATION_FILES_ACCESS_LEVEL_VERIFICATION" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---620_CONFIG_GLOBAL_ADMINHTML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---620_CONFIG_GLOBAL_WEBSITES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---620_Zend_LocaleC_de_time_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---620_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---620_ADMINHTML_ACL_MENU_CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---620_STORE_ADMIN_CONFIG_CACHE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---620_STORE_FRENCH_CONFIG_CACHE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---620_STORE_GERMAN_CONFIG_CACHE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---620_Zend_LocaleC_en_US_am_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---620_Zend_LocaleC_en_US_pm_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---620_ADMINHTML_ACL_MENU_CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---620_STORE_ADMIN_CONFIG_CACHE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---620_STORE_FRENCH_CONFIG_CACHE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---620_STORE_GERMAN_CONFIG_CACHE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---620_Zend_LocaleC_en_US_am_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---620_Zend_LocaleC_en_US_pm_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---620_CONFIG_GLOBAL_STORES_ADMIN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---620_CONFIG_GLOBAL_STORES_FRENCH" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---620_CONFIG_GLOBAL_STORES_GERMAN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---620_JAVASCRIPT_TRANSLATE_CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---620_STORE_DEFAULT_CONFIG_CACHE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---620_Zend_LocaleC_en_US_date_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---620_Zend_LocaleC_en_US_time_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---620_Zend_LocaleL_en_US_day_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---620_Zend_LocaleL_en_US_days_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---620_CONFIG_GLOBAL_STORES_ADMIN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---620_CONFIG_GLOBAL_STORES_FRENCH" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---620_CONFIG_GLOBAL_STORES_GERMAN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---620_JAVASCRIPT_TRANSLATE_CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---620_STORE_DEFAULT_CONFIG_CACHE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---620_Zend_LocaleC_en_US_date_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---620_Zend_LocaleC_en_US_time_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---620_Zend_LocaleL_en_US_day_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---620_Zend_LocaleL_en_US_days_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_16265BD8BDFF462F9665914501A6120B" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_174DE56323DDF97CEE4A2DA201565830" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_63DB0573DF8D113D1E7552CBCF187073" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_65C36BE4D6C499774ECB171425FF9631" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_76473C915835F0F46FEEA073D30DE911" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_76D390DEB6D0C640F81FDE756C97A9EB" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_96A73303388A4E4AB220E34F0A278421" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_ADMIN_NOTIFICATIONS_LASTCHECK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_B98BCC32E0A119825B6467E475724232" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_CE04170531082F37459B8DCE4A7D2512" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_CF5E01BBFA5CDAE34EF9D100B9A8F0A6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_CONFIG_GLOBAL_STORES_DEFAULT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_DD32684FA7164C239228C2A172536BFB" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_E4471C20E50598E0B37ECA3E6E29666E" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_F321C867F77AD461AD6C1BE791BC5994" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_FF118FFAA3F561CDF116913E37B60034" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---620_Zend_LocaleL_en_US_month_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_16265BD8BDFF462F9665914501A6120B" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_174DE56323DDF97CEE4A2DA201565830" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_63DB0573DF8D113D1E7552CBCF187073" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_65C36BE4D6C499774ECB171425FF9631" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_76473C915835F0F46FEEA073D30DE911" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_76D390DEB6D0C640F81FDE756C97A9EB" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_96A73303388A4E4AB220E34F0A278421" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_ADMIN_NOTIFICATIONS_LASTCHECK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_B98BCC32E0A119825B6467E475724232" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_CE04170531082F37459B8DCE4A7D2512" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_CF5E01BBFA5CDAE34EF9D100B9A8F0A6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_CONFIG_GLOBAL_STORES_DEFAULT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_DD32684FA7164C239228C2A172536BFB" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_E4471C20E50598E0B37ECA3E6E29666E" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_F321C867F77AD461AD6C1BE791BC5994" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_FF118FFAA3F561CDF116913E37B60034" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_Zend_LocaleC_en_US_month_gregorian_format_abbreviated_5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---620_Zend_LocaleL_en_US_month_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---620_DB_PDO_MYSQL_DDL_admin_role_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---620_DB_PDO_MYSQL_DDL_admin_user_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---620_DB_PDO_MYSQL_DDL_core_flag_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---620_Zend_LocaleL_en_US_months_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---620_Zend_LocaleL_en_US_symbols_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---620_DB_PDO_MYSQL_DDL_admin_role_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---620_DB_PDO_MYSQL_DDL_admin_user_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---620_DB_PDO_MYSQL_DDL_core_flag_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---620_Zend_LocaleL_en_US_months_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---620_Zend_LocaleL_en_US_symbols_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---620_Zend_LocaleC_en_US_date_full" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---620_Zend_LocaleC_en_US_date_long" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---620_Zend_LocaleL_en_US_language_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---620_Zend_LocaleC_en_US_date_full" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---620_Zend_LocaleC_en_US_date_long" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---620_Zend_LocaleL_en_US_language_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_APP_4E4ABDD8DC00C3DACB3C1597944A3B6C" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_APP_B1FB6E8F13287C01E5C05063633DDA4C" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_APP_E4D52B98688947405EDE639E947EE03D" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_af_ZA_country_ZA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_af_ZA_language_af" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ar_DZ_country_DZ" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ar_DZ_language_ar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ar_EG_country_EG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ar_EG_language_ar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ar_KW_country_KW" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ar_KW_language_ar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ar_MA_country_MA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ar_MA_language_ar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ar_SA_country_SA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ar_SA_language_ar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_be_BY_country_BY" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_be_BY_language_be" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_bg_BG_country_BG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_bg_BG_language_bg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_bn_BD_country_BD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_bn_BD_language_bn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ca_ES_country_ES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ca_ES_language_ca" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_cs_CZ_country_CZ" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_cs_CZ_language_cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_cy_GB_country_GB" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_cy_GB_language_cy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_da_DK_country_DK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_da_DK_language_da" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_de_AT_country_AT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_de_AT_language_de" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_de_CH_country_CH" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_de_CH_language_de" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_de_DE_country_DE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_de_DE_language_de" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_el_GR_country_GR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_el_GR_language_el" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_AU_country_AU" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_AU_language_en" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_CA_country_CA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_CA_language_en" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_GB_country_GB" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_GB_language_en" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_IE_country_IE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_IE_language_en" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_NZ_country_NZ" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_US_country_US" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_US_date_medium" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_US_date_short" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_US_field_week" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_en_US_relative_0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_AR_country_AR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_AR_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_CL_country_CL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_CL_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_CO_country_CO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_CO_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_CR_country_CR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_CR_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_ES_country_ES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_ES_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_MX_country_MX" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_PA_country_PA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_PA_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_PE_country_PE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_PE_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_VE_country_VE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_es_VE_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_et_EE_country_EE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_et_EE_language_et" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_fa_IR_country_IR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_fa_IR_language_fa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_fi_FI_country_FI" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_fi_FI_language_fi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_fr_CA_country_CA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_fr_CA_language_fr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_fr_FR_country_FR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_fr_FR_language_fr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_gl_ES_country_ES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_gl_ES_language_gl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_gu_IN_country_IN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_he_IL_country_IL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_he_IL_language_he" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_hi_IN_country_IN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_hi_IN_language_hi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_hr_HR_country_HR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_hu_HU_country_HU" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_id_ID_country_ID" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_id_ID_language_id" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_is_IS_country_IS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_it_CH_country_CH" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_it_CH_language_it" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_it_IT_country_IT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ja_JP_country_JP" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ja_JP_language_ja" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ka_GE_country_GE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ka_GE_language_ka" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_km_KH_country_KH" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_km_KH_language_km" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ko_KR_country_KR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_lo_LA_country_LA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_lo_LA_language_lo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_lt_LT_country_LT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_lv_LV_country_LV" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_mk_MK_country_MK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_mk_MK_language_mk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_nb_NO_country_NO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_nb_NO_language_nb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_nl_NL_country_NL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_nn_NO_country_NO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_pl_PL_country_PL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_pt_BR_country_BR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_pt_PT_country_PT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ro_RO_country_RO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_ru_RU_country_RU" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_sk_SK_country_SK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_sl_SI_country_SI" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_sq_AL_country_AL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_sv_SE_country_SE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_sw_KE_country_KE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_th_TH_country_TH" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_tr_TR_country_TR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_uk_UA_country_UA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---620_Zend_LocaleC_vi_VN_country_VN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_APP_4E4ABDD8DC00C3DACB3C1597944A3B6C" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_APP_B1FB6E8F13287C01E5C05063633DDA4C" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_APP_E4D52B98688947405EDE639E947EE03D" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_af_ZA_country_ZA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_af_ZA_language_af" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ar_DZ_country_DZ" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ar_DZ_language_ar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ar_EG_country_EG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ar_EG_language_ar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ar_KW_country_KW" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ar_KW_language_ar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ar_MA_country_MA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ar_MA_language_ar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ar_SA_country_SA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ar_SA_language_ar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_be_BY_country_BY" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_be_BY_language_be" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_bg_BG_country_BG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_bg_BG_language_bg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_bn_BD_country_BD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_bn_BD_language_bn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ca_ES_country_ES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ca_ES_language_ca" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_cs_CZ_country_CZ" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_cs_CZ_language_cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_cy_GB_country_GB" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_cy_GB_language_cy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_da_DK_country_DK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_da_DK_language_da" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_de_AT_country_AT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_de_AT_language_de" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_de_CH_country_CH" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_de_CH_language_de" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_de_DE_country_DE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_de_DE_language_de" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_el_GR_country_GR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_el_GR_language_el" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_AU_country_AU" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_AU_language_en" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_CA_country_CA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_CA_language_en" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_GB_country_GB" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_GB_language_en" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_IE_country_IE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_IE_language_en" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_NZ_country_NZ" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_US_country_US" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_US_date_medium" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_US_date_short" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_US_field_week" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_en_US_relative_0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_AR_country_AR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_AR_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_CL_country_CL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_CL_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_CO_country_CO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_CO_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_CR_country_CR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_CR_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_ES_country_ES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_ES_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_MX_country_MX" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_PA_country_PA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_PA_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_PE_country_PE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_PE_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_VE_country_VE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_es_VE_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_et_EE_country_EE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_et_EE_language_et" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_fa_IR_country_IR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_fa_IR_language_fa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_fi_FI_country_FI" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_fi_FI_language_fi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_fr_CA_country_CA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_fr_CA_language_fr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_fr_FR_country_FR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_fr_FR_language_fr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_gl_ES_country_ES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_gl_ES_language_gl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_gu_IN_country_IN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_he_IL_country_IL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_he_IL_language_he" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_hi_IN_country_IN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_hi_IN_language_hi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_hr_HR_country_HR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_hu_HU_country_HU" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_id_ID_country_ID" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_id_ID_language_id" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_is_IS_country_IS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_it_CH_country_CH" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_it_CH_language_it" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_it_IT_country_IT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ja_JP_country_JP" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ja_JP_language_ja" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ka_GE_country_GE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ka_GE_language_ka" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_km_KH_country_KH" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_km_KH_language_km" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ko_KR_country_KR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_lo_LA_country_LA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_lo_LA_language_lo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_lt_LT_country_LT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_lv_LV_country_LV" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_mk_MK_country_MK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_mk_MK_language_mk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_nb_NO_country_NO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_nb_NO_language_nb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_nl_NL_country_NL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_nn_NO_country_NO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_pl_PL_country_PL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_pt_BR_country_BR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_pt_PT_country_PT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ro_RO_country_RO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_ru_RU_country_RU" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_sk_SK_country_SK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_sl_SI_country_SI" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_sq_AL_country_AL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_sv_SE_country_SE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_sw_KE_country_KE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_th_TH_country_TH" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_tr_TR_country_TR" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_uk_UA_country_UA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---620_Zend_LocaleC_vi_VN_country_VN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_0031562D73944CD02270D5C45009E9FD6FB1774F" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_93E9648DFE4019C80D07134A923A623798EF7C18" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_DB_PDO_MYSQL_DDL_eav_attribute_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_LAYOUT_FRONTEND_STORE1_RWD_DEFAULT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_en_NZ_language_en" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_en_US_language_en" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_en_US_time_medium" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_es_MX_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_fil_PH_country_PH" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_gu_IN_language_gu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_hr_HR_language_hr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_hu_HU_language_hu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_is_IS_language_is" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_it_IT_language_it" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_ko_KR_language_ko" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_lt_LT_language_lt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_lv_LV_language_lv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_nl_NL_language_nl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_nn_NO_language_nn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_pl_PL_language_pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_pt_BR_language_pt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_pt_PT_language_pt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_ro_RO_language_ro" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_ru_RU_language_ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_sk_SK_language_sk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_sl_SI_language_sl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_sq_AL_language_sq" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_sv_SE_language_sv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_sw_KE_language_sw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_th_TH_language_th" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_tr_TR_language_tr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_uk_UA_language_uk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleC_vi_VN_language_vi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---620_Zend_LocaleL_en_US_territory_2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_0031562D73944CD02270D5C45009E9FD6FB1774F" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_93E9648DFE4019C80D07134A923A623798EF7C18" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_DB_PDO_MYSQL_DDL_eav_attribute_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_LAYOUT_FRONTEND_STORE1_RWD_DEFAULT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_en_NZ_language_en" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_en_US_language_en" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_en_US_time_medium" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_es_MX_language_es" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_fil_PH_country_PH" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_gu_IN_language_gu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_hr_HR_language_hr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_hu_HU_language_hu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_is_IS_language_is" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_it_IT_language_it" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_ko_KR_language_ko" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_lt_LT_language_lt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_lv_LV_language_lv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_nl_NL_language_nl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_nn_NO_language_nn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_pl_PL_language_pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_pt_BR_language_pt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_pt_PT_language_pt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_ro_RO_language_ro" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_ru_RU_language_ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_sk_SK_language_sk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_sl_SI_language_sl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_sq_AL_language_sq" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_sv_SE_language_sv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_sw_KE_language_sw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_th_TH_language_th" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_tr_TR_language_tr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_uk_UA_language_uk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleC_vi_VN_language_vi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---620_Zend_LocaleL_en_US_territory_2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_0A52CE5F952E81B0E074C55EFD597EFCC01016DE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_11076C82FA8EF0D38355B8253EBFA0ED8296982B" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_1904F0EDBF20821C3CED77D81357F90501C4CAFA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_1D6F9AD88E34ED621362EC56DB4DD2E958643429" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_75988648256852ACFBE58475DDCDAC949DB55BE7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_8180BED45BD2F91E7B8F83240F09AC1898AB3258" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_880F64963F38481E0E7E2CB964A9BE4E3E523C71" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_8A4A8F5E311AF47E073B5DBB107BBC9D2175BD91" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_8E04C6B40D09885DC781B85E2BF0915B883BDD10" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_9F48C8F83D379346BEA4C6615E0E7BF8FD6A126D" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_A89BCC7F7F5CB6CFF4171FF891706A01214F65F5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_B124A8D0BE762BA38014BDDCD0A756890B964D5C" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_af_ZA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_ar_DZ_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_ar_EG_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_ar_KW_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_ar_MA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_ar_SA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_be_BY_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_bg_BG_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_bn_BD_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_ca_ES_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_cs_CZ_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_cy_GB_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_da_DK_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_de_AT_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_de_CH_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_de_DE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_el_GR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_en_AU_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_en_CA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_en_GB_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_en_IE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_en_NZ_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_en_US_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_es_AR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_es_CL_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_es_CO_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_es_CR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_es_ES_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_es_MX_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_es_PA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_es_PE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_es_VE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_et_EE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_fa_IR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_fi_FI_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_fil_PH_language_fil" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_fr_CA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_fr_FR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_gl_ES_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_gu_IN_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_he_IL_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_hi_IN_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_hr_HR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_hu_HU_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_id_ID_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_is_IS_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_it_CH_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_it_IT_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_ja_JP_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_ka_GE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_km_KH_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_ko_KR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_lo_LA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_lt_LT_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_lv_LV_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_mk_MK_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_nb_NO_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_nl_NL_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_nn_NO_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_pl_PL_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_pt_BR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_pt_PT_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_ro_RO_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_ru_RU_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_sk_SK_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_sl_SI_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_sq_AL_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_sv_SE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_sw_KE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_th_TH_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_tr_TR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_uk_UA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---620_Zend_LocaleC_vi_VN_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_0A52CE5F952E81B0E074C55EFD597EFCC01016DE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_11076C82FA8EF0D38355B8253EBFA0ED8296982B" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_1904F0EDBF20821C3CED77D81357F90501C4CAFA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_1D6F9AD88E34ED621362EC56DB4DD2E958643429" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_75988648256852ACFBE58475DDCDAC949DB55BE7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_8180BED45BD2F91E7B8F83240F09AC1898AB3258" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_880F64963F38481E0E7E2CB964A9BE4E3E523C71" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_8A4A8F5E311AF47E073B5DBB107BBC9D2175BD91" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_8E04C6B40D09885DC781B85E2BF0915B883BDD10" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_9F48C8F83D379346BEA4C6615E0E7BF8FD6A126D" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_A89BCC7F7F5CB6CFF4171FF891706A01214F65F5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_B124A8D0BE762BA38014BDDCD0A756890B964D5C" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_af_ZA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_ar_DZ_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_ar_EG_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_ar_KW_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_ar_MA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_ar_SA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_be_BY_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_bg_BG_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_bn_BD_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_ca_ES_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_cs_CZ_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_cy_GB_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_da_DK_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_de_AT_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_de_CH_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_de_DE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_el_GR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_en_AU_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_en_CA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_en_GB_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_en_IE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_en_NZ_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_en_US_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_es_AR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_es_CL_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_es_CO_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_es_CR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_es_ES_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_es_MX_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_es_PA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_es_PE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_es_VE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_et_EE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_fa_IR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_fi_FI_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_fil_PH_language_fil" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_fr_CA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_fr_FR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_gl_ES_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_gu_IN_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_he_IL_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_hi_IN_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_hr_HR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_hu_HU_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_id_ID_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_is_IS_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_it_CH_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_it_IT_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_ja_JP_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_ka_GE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_km_KH_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_ko_KR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_lo_LA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_lt_LT_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_lv_LV_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_mk_MK_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_nb_NO_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_nl_NL_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_nn_NO_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_pl_PL_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_pt_BR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_pt_PT_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_ro_RO_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_ru_RU_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_sk_SK_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_sl_SI_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_sq_AL_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_sv_SE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_sw_KE_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_th_TH_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_tr_TR_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_uk_UA_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---620_Zend_LocaleC_vi_VN_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---620_LAYOUT_03DD2419C268A1A997215E24124A68CDD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---620_LAYOUT_05B019F29CAFDBE5EB3CF70FAE126E29F" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---620_LAYOUT_0D694E278B5FEB0A9FC3C26D36C3018EC" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---620_LAYOUT_18A0383AC81641979EE7CEC334105C8EF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---620_LAYOUT_1A2BE81864D8F6BBE973FE856569783EC" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---620_LAYOUT_1ABC280A6BA234775A92151FB5FFC689D" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---620_LAYOUT_1FD0DFC9AB944A605082649CF7A5AF268" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---620_LAYOUT_INSTALL_STORE1_DEFAULT_DEFAULT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---620_Zend_LocaleC_en_001_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---620_Zend_LocaleC_en_US_day_gregorian_format_wide_fri" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---620_Zend_LocaleC_en_US_month_gregorian_format_wide_5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---620_Zend_LocaleC_es_419_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---620_Zend_LocaleC_fil_PH_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---620_LAYOUT_03DD2419C268A1A997215E24124A68CDD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---620_LAYOUT_05B019F29CAFDBE5EB3CF70FAE126E29F" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---620_LAYOUT_0D694E278B5FEB0A9FC3C26D36C3018EC" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---620_LAYOUT_18A0383AC81641979EE7CEC334105C8EF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---620_LAYOUT_1A2BE81864D8F6BBE973FE856569783EC" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---620_LAYOUT_1ABC280A6BA234775A92151FB5FFC689D" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---620_LAYOUT_1FD0DFC9AB944A605082649CF7A5AF268" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---620_LAYOUT_INSTALL_STORE1_DEFAULT_DEFAULT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---620_Zend_LocaleC_en_001_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---620_Zend_LocaleC_en_US_day_gregorian_format_wide_fri" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---620_Zend_LocaleC_en_US_month_gregorian_format_wide_5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---620_Zend_LocaleC_es_419_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---620_Zend_LocaleC_fil_PH_parentlocale_" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Block/Sales/Order/Creditmemo/Totals.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Block/Sales/Order/Invoice/Totals.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Block/Sales/Order/Totals.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Helper/Data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Model/Total/Creditmemo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Model/Total/Invoice.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Model/Total/Quote.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Lucky/etc/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/sql/virtual_lucky_setup/install-0.0.1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Virtual_Lucky.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/local.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/adminhtml.xml" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/adminhtml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/virtual/orders.xml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/virtual/orders.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/log/exception.log" afterPath="$PROJECT_DIR$/var/log/exception.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/local/Virtual/Orders/sql/virtual_orders_setup/mysql4-install-0.0.1.php" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Orders/sql/virtual_orders_setup/install-0.0.1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/local1.xml" afterPath="$PROJECT_DIR$/app/etc/local1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/.htaccess" afterPath="$PROJECT_DIR$/media/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/custom_options/.htaccess" afterPath="$PROJECT_DIR$/media/custom_options/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/customer/.htaccess" afterPath="$PROJECT_DIR$/media/customer/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/downloadable/.htaccess" afterPath="$PROJECT_DIR$/media/downloadable/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/xmlconnect/themes/custom.xml" afterPath="$PROJECT_DIR$/media/xmlconnect/themes/custom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/xmlconnect/themes/default.xml" afterPath="$PROJECT_DIR$/media/xmlconnect/themes/default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/xmlconnect/themes/funk_leaf.xml" afterPath="$PROJECT_DIR$/media/xmlconnect/themes/funk_leaf.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/xmlconnect/themes/hot_red.xml" afterPath="$PROJECT_DIR$/media/xmlconnect/themes/hot_red.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/xmlconnect/themes/sky_blue.xml" afterPath="$PROJECT_DIR$/media/xmlconnect/themes/sky_blue.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/local/Virtual/Orders/sql/virtual_orders_setup/install-0.0.1.php" afterPath="$PROJECT_DIR$/app/code/local/Virtual/Lucky/sql/virtual_orders_setup/install-0.0.1.php" />
     </list>
     <ignored path="magento.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -761,100 +54,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/config.xml">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/etc/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+            <state relative-caret-position="-136">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local1.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/etc/local1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-357">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Vmodul/etc/config.xml">
+        <entry file="file://$PROJECT_DIR$/app/etc/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Totals.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Block/Sales/Order/Totals.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Totals.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Block/Sales/Order/Creditmemo/Totals.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Totals.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Block/Sales/Order/Invoice/Totals.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quote.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Model/Total/Quote.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="30" column="55" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Creditmemo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Model/Total/Creditmemo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Invoice.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Model/Total/Invoice.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="60" />
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install-0.0.1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/sql/virtual_orders_setup/install-0.0.1.php">
+      <file leaf-file-name="Data.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Helper/Data.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orders.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/virtual/orders.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Grid.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz/Grid.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminhtml.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/adminhtml.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Edit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz/Edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Form.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz/Edit/Form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="45" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BazController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/controllers/Adminhtml/BazController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-585">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Baz.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="44" />
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -868,9 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/code/local/Virtual/Vmodul/sql/setup/install-0.0.1.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Virtual/Vmodul/Model/Resource/Vmodel/Collection.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Virtual/Vmodul/Model/Resource/Vmodel.php" />
         <option value="$PROJECT_DIR$/app/code/local/Virtual/Vmodul/sql/virtual_vmodul_setup/install-0.0.1.php" />
         <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/virtual/virtualpage.phtml" />
         <option value="$PROJECT_DIR$/qqwe.php" />
@@ -906,19 +196,22 @@
         <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Sales/Order/Grid.php" />
         <option value="$PROJECT_DIR$/app/etc/local.xml" />
         <option value="$PROJECT_DIR$/app/etc/modules/Virtual_Orders.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/adminhtml.xml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/virtual/orders.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/sql/virtual_orders_setup/mysql4-install-0.0.1.php" />
         <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/Model/Baz.php" />
         <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/Model/Mysql4/Baz.php" />
         <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/Model/Mysql4/Baz/Collection.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz/Grid.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz/Edit/Form.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/adminhtml.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/sql/virtual_orders_setup/mysql4-install-0.0.0.1.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/controllers/Adminhtml/BazController.php" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/virtual/orders.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz/Edit.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/etc/modules/Virtual_Lucky.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Helper/Data.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Model/Total/Quote.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Model/Total/Creditmemo.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Model/Total/Invoice.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Virtual/Lucky/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Block/Sales/Order/Totals.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Block/Sales/Order/Creditmemo/Totals.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Virtual/Lucky/Block/Sales/Order/Invoice/Totals.php" />
       </list>
     </option>
   </component>
@@ -932,10 +225,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
-    <option name="width" value="1320" />
-    <option name="height" value="772" />
+    <option name="x" value="3" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -963,45 +256,32 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="var" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1011,11 +291,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1029,11 +309,33 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagentoExpirians" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1047,11 +349,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1077,11 +379,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1089,71 +391,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
+              <option name="myItemId" value="code" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adminhtml" />
+              <option name="myItemId" value="local" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="Virtual" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminhtml" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="virtual" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1173,25 +429,17 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Vmodul" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="virtual_vmodul_setup" />
+              <option name="myItemId" value="Lucky" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1211,41 +459,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Vmodul" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Virtual" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vmodul" />
+              <option name="myItemId" value="Lucky" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1253,17 +467,17 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resource" />
+              <option name="myItemId" value="Total" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1283,17 +497,21 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Vmodul" />
+              <option name="myItemId" value="Lucky" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helper" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1313,7 +531,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Vmodul" />
+              <option name="myItemId" value="Lucky" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1323,11 +541,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1347,261 +565,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Orders" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="virtual_orders_setup" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Virtual" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Orders" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Virtual" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Orders" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mysql4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Virtual" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Orders" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mysql4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Baz" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Virtual" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Orders" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Virtual" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Orders" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Virtual" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Orders" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Adminhtml" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Virtual" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Orders" />
+              <option name="myItemId" value="Lucky" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1609,17 +573,21 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemId" value="Sales" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Order" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1639,7 +607,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Orders" />
+              <option name="myItemId" value="Lucky" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1647,21 +615,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemId" value="Sales" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Baz" />
+              <option name="myItemId" value="Order" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Invoice" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1681,7 +653,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Orders" />
+              <option name="myItemId" value="Lucky" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1689,51 +661,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemId" value="Sales" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Baz" />
+              <option name="myItemId" value="Order" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Edit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Virtual" />
+              <option name="myItemId" value="Creditmemo" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1751,11 +697,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
+              <option name="myItemId" value="MagentoExpirians" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1769,13 +715,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="SearchEverywhereHistoryKey" value="source&#9;FILE&#9;file://E:/OpenServer/domains/magento/app/code/core/Mage/Catalog/Model/Resource/Product/Indexer/Eav/Source.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../endorfine_dashboard" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1785,6 +731,8 @@
       <recent name="E:\OpenServer\domains\magento\app\design\frontend\rwd\default\template" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\OpenServer\domains\MagentoExpirians\app\etc\modules" />
+      <recent name="F:\OpenServer\domains\MagentoExpirians\app\code\local\Virtual" />
       <recent name="E:\OpenServer\domains\magento\app\etc\modules" />
       <recent name="E:\OpenServer\domains\magento\app\code\local\Virtual\Chekurl" />
       <recent name="E:\OpenServer\domains\magento\app\code\local\Virtual\Vmodul\Helper" />
@@ -1844,23 +792,27 @@
       <workItem from="1462362699377" duration="3950000" />
       <workItem from="1462429810093" duration="9236000" />
       <workItem from="1462458359690" duration="23323000" />
-      <workItem from="1462543997369" duration="4196000" />
-      <workItem from="1462623145524" duration="10996000" />
+      <workItem from="1462543997369" duration="293000" />
+      <workItem from="1462736996148" duration="622000" />
+      <workItem from="1462805136953" duration="3780000" />
+      <workItem from="1464719938277" duration="26000" />
+      <workItem from="1465931333816" duration="643000" />
+      <workItem from="1467101504857" duration="6326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104159000" />
+    <option name="totallyTimeSpent" value="100657000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="772" extended-state="0" />
+    <frame x="3" y="20" width="1400" height="820" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29761904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29190752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1912,27 +864,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Vmodul/sql/virtual_vmodul_setup/upgrade-0.0.1-0.0.3.php" />
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Vmodul/Model/Resource/Vmodel/Collection.php" />
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Vmodul/controllers/IndexController.php" />
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Template.php" />
-    <entry file="file://$PROJECT_DIR$/../quickstart/config/app.php" />
-    <entry file="file://$PROJECT_DIR$/../Testing/quickstart/bootstrap/app.php" />
-    <entry file="file://$PROJECT_DIR$/../Testing/quickstart/config/app.php" />
-    <entry file="file://$PROJECT_DIR$/../Testing/laravel/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Chekurl/Block/Vblock.php" />
     <entry file="file://$PROJECT_DIR$/app/etc/modules/Dima_Modulhell.xml" />
     <entry file="file://$PROJECT_DIR$/app/etc/modules/Virtual_Vmodul.xml" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Vmodul/sql/virtual_vmodul_setup/install-0.0.1.php" />
     <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Vmodul/Block/Vblock.php" />
     <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Vmodul/Model/Resource/Vmodel.php" />
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/PageCache/etc/config.xml" />
-    <entry file="file://$PROJECT_DIR$/app/etc/config.xml" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Vmodul/etc/config.xml" />
     <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Vmodul/Helper/Data.php" />
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Persistent/etc/system.xml" />
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Model/System/Config/Source/Yesno.php" />
@@ -1952,7 +890,20 @@
     <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Sales/Order/Grid.php" />
     <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Sales/Order.php" />
     <entry file="file://$PROJECT_DIR$/app/etc/local1.xml" />
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/controllers/Adminhtml/OrderController.php">
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/Virtual_Orders.xml" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/controllers/Adminhtml/OrderController.php" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/adminhtml.xml" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/sql/virtual_orders_setup/mysql4-install-0.0.1.php" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Model/Mysql4/Baz.php" />
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/Virtual_Lucky.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1960,15 +911,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Helper/Data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/Virtual_Orders.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/sql/virtual_lucky_setup/install-0.0.1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1984,15 +927,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/adminhtml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Vmodul/sql/virtual_vmodul_setup/install-0.0.1.php">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Helper/Data.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2000,31 +935,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Vmodul/etc/config.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/controllers/Adminhtml/BazController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/sql/virtual_orders_setup/install-0.0.1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/virtual/orders.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Model/Mysql4/Baz.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2034,56 +953,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Model/Mysql4/Baz/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        <state relative-caret-position="-323">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/controllers/Adminhtml/BazController.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Sales/Model/Quote/Address/Total/Abstract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz.php">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Helper/Data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz/Grid.php">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Model/Total/Invoice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        <state relative-caret-position="17">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz/Edit.php">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Model/Total/Creditmemo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="102">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Orders/Block/Adminhtml/Baz/Edit/Form.php">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Model/Total/Quote.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="45" selection-end-column="11" />
+        <state relative-caret-position="153">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Block/Sales/Order/Creditmemo/Totals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Block/Sales/Order/Totals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/Block/Sales/Order/Invoice/Totals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Virtual/Lucky/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/local1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

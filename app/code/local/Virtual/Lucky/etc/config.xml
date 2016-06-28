@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Virtual_Lucky>
+            <version>0.0.1</version>
+        </Virtual_Lucky>
+    </modules>
+
+    <global>
+        <models>
+            <virtual_lucky>
+                <class>Virtual_Lucky_Model</class>
+            </virtual_lucky>
+        </models>
+
+        <resources>
+            <virtual_lucky_setup>
+                <setup>
+                    <module>Virtual_Lucky</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+            </virtual_lucky_setup>
+        </resources>
+
+        <blocks>
+            <virtual_lucky>
+                <class>Virtual_Lucky_Block</class>
+            </virtual_lucky>
+
+            <adminhtml>
+                <rewrite>
+                    <sales_order_totals>Virtual_Lucky_Block_Sales_Order_Totals</sales_order_totals>
+                    <sales_order_invoice_totals>Virtual_Lucky_Block_Sales_Order_Invoice_Totals</sales_order_invoice_totals>
+                    <sales_order_creditmemo_totals>Virtual_Lucky_Block_Sales_Order_Creditmemo_Totals</sales_order_creditmemo_totals>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+
+        <helpers>
+            <virtual_lucky>
+                <class>Virtual_Lucky_Helper</class>
+            </virtual_lucky>
+        </helpers>
+
+        <sales>
+            <quote>
+                <totals>
+                    <virtual_lucky>
+                        <class>virtual_lucky/total_quote</class>
+                        <after>subtotal</after>
+                        <before>tax</before>
+                    </virtual_lucky>
+                </totals>
+            </quote>
+            <order_invoice>
+                <totals>
+                    <virtual_lucky>
+                        <class>virtual_lucky/total_invoice</class>
+                        <after>subtotal</after>
+                        <before>tax</before>
+                    </virtual_lucky>
+                </totals>
+            </order_invoice>
+            <order_creditmemo>
+                <totals>
+                    <virtual_lucky>
+                        <class>virtual_lucky/total_creditmemo</class>
+                        <after>subtotal</after>
+                        <before>tax</before>
+                    </virtual_lucky>
+                </totals>
+            </order_creditmemo>
+        </sales>
+
+    </global>
+
+    <default>
+        <sales>
+            <totals_sort>
+                <virtual_lucky>15</virtual_lucky>
+            </totals_sort>
+        </sales>
+    </default>
+
+
+
+</config>
