@@ -281,3 +281,136 @@ Stack trace:
 #14 E:\OpenServer\domains\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
 #15 E:\OpenServer\domains\magento\index.php(83): Mage::run('', 'store')
 #16 {main}
+2016-05-17T12:43:30+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Virtual_Orders_Block_Adminhtml_Import' in E:\OpenServer\domains\magento\app\Mage.php:595
+Stack trace:
+#0 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('virtual_orders/...', Array)
+#2 E:\OpenServer\domains\magento\app\code\local\Virtual\Orders\controllers\Adminhtml\GoodController.php(8): Mage_Core_Model_Layout->createBlock('virtual_orders/...')
+#3 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Virtual_Orders_Adminhtml_GoodController->indexAction()
+#4 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 E:\OpenServer\domains\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#8 E:\OpenServer\domains\magento\index.php(83): Mage::run('', 'store')
+#9 {main}
+2016-05-17T12:46:06+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Virtual_Orders_Block_Adminhtml_Import' in E:\OpenServer\domains\magento\app\Mage.php:595
+Stack trace:
+#0 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('virtual_orders/...', Array)
+#2 E:\OpenServer\domains\magento\app\code\local\Virtual\Orders\controllers\Adminhtml\GoodController.php(9): Mage_Core_Model_Layout->createBlock('virtual_orders/...')
+#3 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Virtual_Orders_Adminhtml_GoodController->indexAction()
+#4 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 E:\OpenServer\domains\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#8 E:\OpenServer\domains\magento\index.php(83): Mage::run('', 'store')
+#9 {main}
+2016-05-17T12:48:18+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Virtual_Orders_Block_Adminhtml_Import' in E:\OpenServer\domains\magento\app\Mage.php:595
+Stack trace:
+#0 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('virtual_orders/...', Array)
+#2 E:\OpenServer\domains\magento\app\code\local\Virtual\Orders\controllers\Adminhtml\GoodController.php(9): Mage_Core_Model_Layout->createBlock('virtual_orders/...')
+#3 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Virtual_Orders_Adminhtml_GoodController->indexAction()
+#4 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 E:\OpenServer\domains\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#8 E:\OpenServer\domains\magento\index.php(83): Mage::run('', 'store')
+#9 {main}
+2016-05-17T12:48:20+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Virtual_Orders_Block_Adminhtml_Import' in E:\OpenServer\domains\magento\app\Mage.php:595
+Stack trace:
+#0 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('virtual_orders/...', Array)
+#2 E:\OpenServer\domains\magento\app\code\local\Virtual\Orders\controllers\Adminhtml\GoodController.php(9): Mage_Core_Model_Layout->createBlock('virtual_orders/...')
+#3 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Virtual_Orders_Adminhtml_GoodController->indexAction()
+#4 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 E:\OpenServer\domains\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#8 E:\OpenServer\domains\magento\index.php(83): Mage::run('', 'store')
+#9 {main}
+2016-05-17T15:50:01+00:00 ERR (3): 
+exception 'Exception' with message 'asda sdfa d' in E:\OpenServer\domains\magento\app\code\local\Virtual\Orders\controllers\Adminhtml\GoodController.php:28
+Stack trace:
+#0 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Virtual_Orders_Adminhtml_GoodController->importFileAction()
+#1 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('importFile')
+#2 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#3 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#4 E:\OpenServer\domains\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#5 E:\OpenServer\domains\magento\index.php(83): Mage::run('', 'store')
+#6 {main}
+2016-05-17T15:52:12+00:00 ERR (3): 
+exception 'Exception' with message 'asda sdfa d' in E:\OpenServer\domains\magento\app\code\local\Virtual\Orders\controllers\Adminhtml\GoodController.php:28
+Stack trace:
+#0 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Virtual_Orders_Adminhtml_GoodController->importFileAction()
+#1 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('importFile')
+#2 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#3 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#4 E:\OpenServer\domains\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#5 E:\OpenServer\domains\magento\index.php(83): Mage::run('', 'store')
+#6 {main}
+2016-05-17T15:54:15+00:00 ERR (3): 
+exception 'Exception' with message 'asda sdfa d' in E:\OpenServer\domains\magento\app\code\local\Virtual\Orders\controllers\Adminhtml\GoodController.php:28
+Stack trace:
+#0 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Virtual_Orders_Adminhtml_GoodController->importFileAction()
+#1 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('importFile')
+#2 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#3 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#4 E:\OpenServer\domains\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#5 E:\OpenServer\domains\magento\index.php(83): Mage::run('', 'store')
+#6 {main}
+2016-05-17T16:46:05+00:00 ERR (3): 
+exception 'Exception' with message 'Warning: include(Mage\Good\Model\Good.php): failed to open stream: No such file or directory  in E:\OpenServer\domains\magento\lib\Varien\Autoload.php on line 94' in E:\OpenServer\domains\magento\app\code\core\Mage\Core\functions.php:245
+Stack trace:
+#0 E:\OpenServer\domains\magento\lib\Varien\Autoload.php(94): mageCoreErrorHandler(2, 'include(Mage\\Go...', 'E:\\OpenServer\\d...', 94, Array)
+#1 E:\OpenServer\domains\magento\lib\Varien\Autoload.php(94): Varien_Autoload::autoload()
+#2 [internal function]: Varien_Autoload->autoload('Mage_Good_Model...')
+#3 [internal function]: spl_autoload_call('Mage_Good_Model...')
+#4 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\Config.php(1352): class_exists('Mage_Good_Model...')
+#5 E:\OpenServer\domains\magento\app\Mage.php(463): Mage_Core_Model_Config->getModelInstance('good/good', Array)
+#6 E:\OpenServer\domains\magento\app\code\local\Virtual\Orders\controllers\Adminhtml\GoodController.php(30): Mage::getModel('good/good')
+#7 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Virtual_Orders_Adminhtml_GoodController->importFileAction()
+#8 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('importFile')
+#9 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#11 E:\OpenServer\domains\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#12 E:\OpenServer\domains\magento\index.php(83): Mage::run('', 'store')
+#13 {main}
+2016-05-17T16:46:41+00:00 ERR (3): 
+exception 'Exception' with message 'Warning: include(Mage\Virtual\Good\Model\Good.php): failed to open stream: No such file or directory  in E:\OpenServer\domains\magento\lib\Varien\Autoload.php on line 94' in E:\OpenServer\domains\magento\app\code\core\Mage\Core\functions.php:245
+Stack trace:
+#0 E:\OpenServer\domains\magento\lib\Varien\Autoload.php(94): mageCoreErrorHandler(2, 'include(Mage\\Vi...', 'E:\\OpenServer\\d...', 94, Array)
+#1 E:\OpenServer\domains\magento\lib\Varien\Autoload.php(94): Varien_Autoload::autoload()
+#2 [internal function]: Varien_Autoload->autoload('Mage_Virtual_Go...')
+#3 [internal function]: spl_autoload_call('Mage_Virtual_Go...')
+#4 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\Config.php(1352): class_exists('Mage_Virtual_Go...')
+#5 E:\OpenServer\domains\magento\app\Mage.php(463): Mage_Core_Model_Config->getModelInstance('virtual_good/go...', Array)
+#6 E:\OpenServer\domains\magento\app\code\local\Virtual\Orders\controllers\Adminhtml\GoodController.php(30): Mage::getModel('virtual_good/go...')
+#7 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Virtual_Orders_Adminhtml_GoodController->importFileAction()
+#8 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('importFile')
+#9 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#11 E:\OpenServer\domains\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#12 E:\OpenServer\domains\magento\index.php(83): Mage::run('', 'store')
+#13 {main}
+2016-05-17T16:47:31+00:00 ERR (3): 
+exception 'Exception' with message 'Warning: include(Mage\Ware\Model\Ware.php): failed to open stream: No such file or directory  in E:\OpenServer\domains\magento\lib\Varien\Autoload.php on line 94' in E:\OpenServer\domains\magento\app\code\core\Mage\Core\functions.php:245
+Stack trace:
+#0 E:\OpenServer\domains\magento\lib\Varien\Autoload.php(94): mageCoreErrorHandler(2, 'include(Mage\\Wa...', 'E:\\OpenServer\\d...', 94, Array)
+#1 E:\OpenServer\domains\magento\lib\Varien\Autoload.php(94): Varien_Autoload::autoload()
+#2 [internal function]: Varien_Autoload->autoload('Mage_Ware_Model...')
+#3 [internal function]: spl_autoload_call('Mage_Ware_Model...')
+#4 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\Config.php(1352): class_exists('Mage_Ware_Model...')
+#5 E:\OpenServer\domains\magento\app\Mage.php(463): Mage_Core_Model_Config->getModelInstance('ware/ware', Array)
+#6 E:\OpenServer\domains\magento\app\code\local\Virtual\Orders\controllers\Adminhtml\GoodController.php(33): Mage::getModel('ware/ware')
+#7 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Virtual_Orders_Adminhtml_GoodController->importFileAction()
+#8 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('importFile')
+#9 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 E:\OpenServer\domains\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#11 E:\OpenServer\domains\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#12 E:\OpenServer\domains\magento\index.php(83): Mage::run('', 'store')
+#13 {main}
