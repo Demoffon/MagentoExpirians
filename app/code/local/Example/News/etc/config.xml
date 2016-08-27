@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Example_News>
+            <version>0.0.1</version>
+        </Example_News>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <exnews>
+                    <file>ex_news.xml</file>
+                </exnews>
+            </updates>
+        </layout>
+        <routers>
+            <exnews>
+                <use>standard</use>
+                <args>
+                    <module>Example_News</module>
+                    <frontName>news</frontName>
+                </args>
+            </exnews>
+        </routers>
+    </frontend>
+    <global>
+        <models>
+            <exnews>
+                <class>Example_News_Model</class>
+                <resourceModel>exnews_resource</resourceModel>
+            </exnews>
+            <exnews_resource>
+                <class>Example_News_Model_Resource</class>
+
+                <entities>
+                    <table_news>
+                        <table>ex_news_entities</table>
+                    </table_news>
+                </entities>
+            </exnews_resource>
+        </models>
+        <blocks>
+            <exnews>
+                <class>Example_News_Block</class>
+            </exnews>
+        </blocks>
+        <resources>
+            <exnews_setup>
+                <setup>
+                    <module>Example_News</module>
+                </setup>
+            </exnews_setup>
+        </resources>
+    </global>
+</config>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<layout>
+    <exnews_index_index>
+        <reference name="content">
+            <block type="core/template" template="example_news/index.phtml" />
+        </reference>
+    </exnews_index_index>
+    <exnews_index_view>
+        <reference name="content">
+            <block type="exnews/view" name="news.content" template="example_news/view.phtml" />
+        </reference>
+    </exnews_index_view>
+</layout>

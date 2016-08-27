@@ -83,3 +83,51 @@
 [5] E:\OpenServer\domains\magento\app\Mage.php:684
 [6] E:\OpenServer\domains\magento\index.php:83
 </pre>
+2016-08-18T17:56:42+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] F:\OpenServer\domains\MagentoExpirians\lib\Zend\Controller\Response\Abstract.php:768
+[2] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Model\App.php:365
+[5] F:\OpenServer\domains\MagentoExpirians\app\Mage.php:684
+[6] F:\OpenServer\domains\MagentoExpirians\index.php:83
+</pre>
+2016-08-18T18:01:41+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] F:\OpenServer\domains\MagentoExpirians\lib\Zend\Controller\Response\Abstract.php:768
+[2] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Model\App.php:365
+[5] F:\OpenServer\domains\MagentoExpirians\app\Mage.php:684
+[6] F:\OpenServer\domains\MagentoExpirians\index.php:83
+</pre>
+2016-08-24T20:43:21+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] F:\OpenServer\domains\MagentoExpirians\lib\Zend\Controller\Response\Abstract.php:768
+[2] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Model\App.php:365
+[5] F:\OpenServer\domains\MagentoExpirians\app\Mage.php:684
+[6] F:\OpenServer\domains\MagentoExpirians\index.php:83
+</pre>
+2016-08-24T20:43:26+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] F:\OpenServer\domains\MagentoExpirians\lib\Zend\Controller\Response\Abstract.php:768
+[2] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Model\App.php:365
+[5] F:\OpenServer\domains\MagentoExpirians\app\Mage.php:684
+[6] F:\OpenServer\domains\MagentoExpirians\index.php:83
+</pre>
+2016-08-24T20:43:30+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] F:\OpenServer\domains\MagentoExpirians\lib\Zend\Controller\Response\Abstract.php:768
+[2] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Model\App.php:365
+[5] F:\OpenServer\domains\MagentoExpirians\app\Mage.php:684
+[6] F:\OpenServer\domains\MagentoExpirians\index.php:83
+</pre>
+2016-08-24T20:50:03+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] F:\OpenServer\domains\MagentoExpirians\lib\Zend\Controller\Response\Abstract.php:768
+[2] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] F:\OpenServer\domains\MagentoExpirians\app\code\core\Mage\Core\Model\App.php:365
+[5] F:\OpenServer\domains\MagentoExpirians\app\Mage.php:684
+[6] F:\OpenServer\domains\MagentoExpirians\index.php:83
+</pre>
